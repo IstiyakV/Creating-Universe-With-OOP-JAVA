@@ -7,15 +7,15 @@ public class Galaxy {
 
 		
 		Star sun = new Star("SUN");
-		Planet Earth = new Planet("Earth", 1.0, 2.0, 6371.00);
+		Planet Earth = new Planet("Earth",6371.00);
 		
-		Planet Marcury = new Planet("Marcury", 1.0, 2.0, 11.00);
-		Planet Venus = new Planet("Venus", 1.0, 2.0, 11.00);
-		Planet Mars = new Planet("Mars", 1.0, 2.0, 11.00);
-		Planet Jupiter = new Planet("Jupiter", 1.0, 2.0, 11.00);
-		Planet Saturn = new Planet("Saturn", 1.0, 2.0, 11.00);
-		Planet Uranus = new Planet("Uranus", 1.0, 2.0, 11.00);
-		Planet Neptune = new Planet("Neptune", 1.0, 2.0, 11.00);
+		Planet Marcury = new Planet("Marcury");
+		Planet Venus = new Planet("Venus");
+		Planet Mars = new Planet("Mars");
+		Planet Jupiter = new Planet("Jupiter");
+		Planet Saturn = new Planet("Saturn");
+		Planet Uranus = new Planet("Uranus");
+		Planet Neptune = new Planet("Neptune");
 		
 		
 		Moon moon = new Moon(1737.00);

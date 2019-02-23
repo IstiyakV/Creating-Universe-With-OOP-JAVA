@@ -14,6 +14,21 @@ public class Planet {
 		System.out.println("Creating Planet "+name);
 	}
 	
+	public Planet(String name, double radious) {
+		super();
+		
+		Radious = radious;
+		Name = name;
+		System.out.println("Creating Planet "+name);
+	}
+	
+	public Planet(String name) {
+		super();
+		
+		Name = name;
+		System.out.println("Creating Planet "+name);
+	}
+	
 	
 	public String getName() {
 		return Name;
